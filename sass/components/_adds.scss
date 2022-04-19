@@ -1,0 +1,56 @@
+.adds-title-main {
+    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.adds-about {
+    display: flex;
+    align-items: center;
+}
+
+.adds-list {
+    margin-right: 30px;
+}
+
+.adds-list:last-child {
+    margin: 0;
+}
+
+.adds-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title-txt-color);
+}
+
+.adds-text {
+    width: 270px;
+
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: var(--main-txt-color);
+}
+.adds-antenna {
+    background-color: var(--background-color-team);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
