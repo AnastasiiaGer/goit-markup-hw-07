@@ -1,12 +1,7 @@
-//roots sryles
 @import "./variables/variables";
-//utils
-@import "./utils/utils";
-//base styles
+
 @import "./base/base";
-//components
-@import "./components/container";
-@import "./components/btn";
+
 @import "./components/header";
 @import "./components/hero";
 @import "./components/adds";
@@ -15,3 +10,4 @@
 @import "./components/clients";
 @import "./components/footer";
 @import "./components/modal";
+@import "./components/portfolio";

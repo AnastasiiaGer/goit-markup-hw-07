@@ -65,18 +65,6 @@
 
     color: var(--footer-info-txt);
 }
-
-.nav-title-portfolio {
-    visibility: hidden;
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
-}
 .footer-title {
     margin-bottom: 20px;
     font-weight: 700;
@@ -122,4 +110,67 @@
 .footer-box {
     display: flex;
     align-items: baseline;
+}
+.footer-social-linc {
+    margin-left: 70px;
+}
+.subscribe-box {
+    margin-left: 93px;
+}
+
+.subscribe-txt {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--first-txt-color);
+}
+
+.subscribe-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-btn {
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    /* identical to box height, or 188% */
+    margin-left: 12px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.subscribe-icons {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.subscribe-form-fild {
+    display: flex;
+    align-items: flex-end;
 }

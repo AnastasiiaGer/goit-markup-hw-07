@@ -1,5 +1,5 @@
 /*font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;*/
+font-family: 'Roboto', sans-serif;
 :root {
   --first-txt-color: #ffffff;
   --title-txt-color: #212121;
@@ -12,7 +12,8 @@ font-family: 'Roboto', sans-serif;*/
   --main-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
 }
-/*base style*/
+*/
+/*
 .list {
   padding-left: 0;
   margin-top: 0;
@@ -56,7 +57,8 @@ ul {
   margin-right: auto;
   margin-left: auto;
 }
- /*header*/
+*/
+/*
 .header {
   border-bottom: var(--first-txt-color);
   background-color: var(--first-txt-color);
@@ -105,7 +107,7 @@ ul {
   align-items: center;
 }
 
-.list {
+.header-list {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -135,7 +137,7 @@ ul {
 
   color: var(--accent-txt-color);
 }
-.list-logo {
+.header-list-logo {
   font-family: var(--second-font);
   font-style: normal;
   font-weight: bold;
@@ -177,8 +179,8 @@ ul {
 .header-info:focus {
   color: var(--accent-txt-color);
 }
-
-/*hero*/
+*/
+/*
 .hero {
   align-items: center;
   padding-top: 200px;
@@ -197,7 +199,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  /* or 136% */
+  
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -216,7 +218,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  /* identical to box height, or 187% */
+  
 
   color: var(--first-txt-color);
   cursor: pointer;
@@ -231,7 +233,7 @@ ul {
   font-weight: bold;
   font-size: 16px;
 
-  /* identical to box height, or 187% */
+  
   font-family: Roboto;
   font-style: normal;
 
@@ -243,7 +245,8 @@ ul {
 
   color: var(--first-txt-color);
 }
-/*adds*/
+*/
+/*
 .adds-title-main {
   visibility: hidden;
   position: absolute;
@@ -283,12 +286,12 @@ ul {
 
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
+  
   letter-spacing: 0.03em;
 
   color: var(--main-txt-color);
 }
-/*about*/
+
 .about {
   padding-top: 0;
 }
@@ -320,7 +323,8 @@ ul {
 .about-us-img:last-child {
   margin: 0;
 }
-/*team*/
+*/
+/*
 .team {
   background-color: var(--background-color-team);
 }
@@ -343,7 +347,7 @@ ul {
   text-align: center;
   margin-right: 30px;
   background: var(--first-txt-color);
-  /* material shadow v1 */
+  
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -357,7 +361,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  /* identical to box height */
+  
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -370,14 +374,15 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
-  /* identical to box height */
+  
 
   text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--main-txt-color);
 }
-/*footer*/
+*/
+/*
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -389,7 +394,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
+  
 
   letter-spacing: 0.03em;
   color: var(--first-txt-color);
@@ -402,7 +407,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
+  
 
   letter-spacing: 0.03em;
 
@@ -425,7 +430,7 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
-  /* or 171% */
+  
 
   letter-spacing: 0.03em;
 
@@ -436,13 +441,14 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
-  /* or 171% */
+  
 
   letter-spacing: 0.03em;
 
   color: var(--footer-info-txt);
 }
-
+*/
+/*
 .nav-title-portfolio {
   visibility: hidden;
   position: absolute;
@@ -454,7 +460,6 @@ ul {
   border: 0;
   clip: rect(0 0 0 0);
 }
-/*portfolio*/
 .portfolio-buttom {
   width: 73px;
   height: 38px;
@@ -504,7 +509,7 @@ ul {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
+  
 
   letter-spacing: 0.06em;
   color: var(--title-txt-color);
@@ -514,7 +519,7 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 2;
-  /* identical to box height, or 187% */
+  
 
   letter-spacing: 0.03em;
   color: var(--main-txt-color);
@@ -528,7 +533,6 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
 .radious:hover,
 .radious:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -551,13 +555,15 @@ ul {
 li:last-child {
   margin-right: 0px;
 }
-
+*/
+/*
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
+*/
+/*
 .team-people-info {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -566,7 +572,8 @@ img {
 .potrfolio-cards:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-
+*/
+/*
 .overlay {
   max-width: 1600px;
   margin-left: auto;
@@ -582,7 +589,8 @@ img {
   background-size: cover;
   height: 600px;
 }
-
+*/
+/*
 .header-info:hover > .header-ikon:hover,
 .header-ikon:focus {
   fill: var(--accent-txt-color);
@@ -590,13 +598,15 @@ img {
 .header-ikon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+*/
+/*
 .team-icons {
   width: 20px;
 
   height: 20px;
 }
-
+*/
+/*
 .social-link {
   margin-top: 16px;
   display: flex;
@@ -623,7 +633,8 @@ img {
   background-color: var(--accent-txt-color);
   fill: var(--first-txt-color);
 }
-
+*/
+/*
 .footer-title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -663,7 +674,8 @@ img {
   width: 20px;
   height: 20px;
 }
-
+*/
+/*
 .adds-antenna {
   background-color: var(--background-color-team);
   border-radius: 4px;
@@ -674,12 +686,14 @@ img {
   justify-content: center;
   margin-bottom: 30px;
 }
-
+*/
+/*
 .footer-box {
   display: flex;
   align-items: baseline;
 }
-/*clients*/
+*/
+/*
 .clients {
   font-weight: 700;
   font-size: 36px;
@@ -719,11 +733,13 @@ img {
   color: var(--accent-txt-color);
   border-color: var(--accent-txt-color);
 }
-
+*/
+/*
 .footer-social-linc {
   margin-left: 70px;
 }
-
+*/
+/*
 .current {
   color: #2196f3;
 }
@@ -739,8 +755,8 @@ img {
   background: #2196f3;
   border-radius: 2px;
 }
-
-/*modal window*/
+*/
+/*modal window
 
 .backdrop {
   position: fixed;
@@ -818,7 +834,7 @@ img {
   position: relative;
   font-size: 12px;
   line-height: 1.2;
-  /* identical to box height */
+  
 
   letter-spacing: 0.01em;
 
@@ -932,7 +948,7 @@ label {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  /* identical to box height, or 188% */
+  
   letter-spacing: 0.06em;
 }
 
@@ -940,8 +956,8 @@ label {
 .btn-subbmit:focus {
   background-color: #188ce8;
 }
-
-/*hover txt portfolio*/
+*/
+/*hover txt portfolio
 .portfolio-wrapper {
   position: relative;
   cursor: pointer;
@@ -970,8 +986,8 @@ label {
 .potrfolio-cards:hover .portfolio-info {
   transform: translateY(0%);
 }
-
-/*hover txt about section*/
+*/
+/*hover txt about section
 .about-container {
   position: relative;
 }
@@ -995,8 +1011,8 @@ label {
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
 }
-
-/*модальное окно галочка*/
+*/
+/*модальное окно галочка
 .agreement-icon {
   position: absolute;
   left: 54px;
@@ -1043,7 +1059,7 @@ label {
   font-size: 14px;
   line-height: 1.7;
   margin-top: 20px;
-  /* identical to box height, or 171% */
+  
 
   letter-spacing: 0.03em;
 
@@ -1054,8 +1070,8 @@ label {
   display: flex;
   margin-left: 5px;
 }
-
-/*ховер подписка*/
+*/
+/*ховер подписка
 .subscribe-box {
   margin-left: 93px;
 }
@@ -1082,6 +1098,7 @@ label {
   color: rgba(255, 255, 255, 0.6);
 }
 .subscribe-btn {
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -1094,9 +1111,8 @@ label {
   border: none;
   font-weight: 700;
   font-size: 16px;
-  border-radius: 4px;
   line-height: 2;
-  /* identical to box height, or 188% */
+  
   margin-left: 12px;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -1107,7 +1123,8 @@ label {
   height: 24px;
   margin-left: 10px;
 }
-.form-fild-global {
+.subscribe-form-fild {
   display: flex;
   align-items: flex-end;
 }
+*/

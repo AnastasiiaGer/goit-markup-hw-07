@@ -12,9 +12,10 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
 
-    <!--стили css-->
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="./sass/main.css.map">
+    <!--стили css
+    <link rel="stylesheet" href="css/style.css" />-->
+    <link rel="stylesheet" href="css/main.min.css">
+
 
     <!--шрифты-->
 
@@ -27,33 +28,34 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="nav">
-          <a class="list link" href="/">Web<span class="list-logo">Studio</span></a
+      <div class="container header_container">
+        <nav class="header_nav">
+          <a class="header_list link" href="/"
+            >Web<span class="header_list-logo">Studio</span></a
           >
-          <ul class="nav-list list">
-            <li class="nav-list-item">
-              <a class="nav-link current link" href="./index.html"> Студия </a>
+          <ul class="header_nav-list list">
+            <li class="header_nav-list-item">
+              <a class="header_nav-link header_current link" href="./index.html"> Студия </a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-link link" href="./portfolio.html"> Портфолио </a>
+            <li class="header_nav-list-item">
+              <a class="header_nav-link link" href="./portfolio.html"> Портфолио </a>
             </li>
-            <li><a class="nav-link link" href=""> Контакты </a></li>
+            <li><a class="header_nav-link link" href=""> Контакты </a></li>
           </ul>
         </nav>
 
-        <ul class="header-info-txt list">
-          <li class="header-info-item">
-            <a class="header-info link" href="mailoto:info@devstudio.com">
-              <svg class="header-ikon" width="16px" height="12px">
+        <ul class="header_info-txt list">
+          <li class="header_info-item">
+            <a class="header_info link" href="mailoto:info@devstudio.com">
+              <svg class="header_ikon" width="16px" height="12px">
                 <use href="./img/icons.svg/icons.svg.svg#post"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
           <li>
-            <a class="header-info link" href="tel:+380961111111">
-              <svg class="header-ikon" width="10px" height="16px">
+            <a class="header_info link" href="tel:+380961111111">
+              <svg class="header_ikon" width="10px" height="16px">
                 <use href="./img/icons.svg/icons.svg.svg#tel"></use>
               </svg>
               +38 096 111 11 11
@@ -177,7 +179,7 @@
                     <a class="social-link" href="" aria-label="instagram">
                       <svg class="team-icons">
                         <use
-                          class="displsy"
+                          
                           href="./img/icons.svg/icons.svg.svg#instagram"
                         ></use>
                       </svg>
@@ -462,7 +464,7 @@
 
     <footer class="footer">
       <div class="container footer-box">
-        <div class="rg-adress">
+        <div>
           <a class="header-list-footer link" href="/"
             >Web<span class="footer-logo">Studio</span></a
           >
@@ -549,7 +551,7 @@
         <div class="subscribe-box">
           
             <p class="subscribe-txt">Подпишитесь на рассылку</p>
-            <div class="form-fild-global">
+            <div class="subscribe-form-fild">
             <form >
               <div class="form-fild">
             <label class="subscribe-label" for="Femail"></label>
